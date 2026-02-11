@@ -24,6 +24,9 @@
   --color-neutral-800: #1f2937;
   --color-neutral-900: #111827;
 
+  /* Colors - Green (Flowbite) */
+  --color-green-400: #31c48d;
+
   /* Colors - Semantic */
   --color-success-50: #f0fdf4;
   --color-success-500: #22c55e;
@@ -77,6 +80,8 @@
   --font-size-xl: 1.25rem;
   --font-size-2xl: 1.5rem;
   --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
 
   --font-weight-regular: 400;
   --font-weight-medium: 500;

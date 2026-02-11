@@ -65,7 +65,10 @@ function main() {
   for (const file of cssFiles) {
     const css = readFileSync(file, 'utf-8')
     const refs = extractReferencedTokens(css)
-    const undefined_refs = refs.filter((r) => !defined.has(r.token))
+    const localDefs = extractDefinedTokens(css)
+    const undefined_refs = refs.filter(
+      (r) => !defined.has(r.token) && !localDefs.has(r.token),
+    )
 
     if (undefined_refs.length > 0) {
       const rel = relative(ROOT, file)

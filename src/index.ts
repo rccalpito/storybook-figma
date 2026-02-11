@@ -12,3 +12,6 @@ export type { ModalProps } from './components/Modal'
 
 export { Badge } from './components/Badge'
 export type { BadgeProps } from './components/Badge'
+
+export { Avatar, AvatarGroup } from './components/Avatar'
+export type { AvatarProps, AvatarGroupProps, AvatarType, AvatarSize } from './components/Avatar'
