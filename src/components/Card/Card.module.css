@@ -5,22 +5,22 @@
 }
 
 .elevated {
-  background: white;
+  background: var(--color-neutral-0);
   box-shadow: var(--shadow-md);
 }
 
 .outlined {
-  background: white;
-  border: 1px solid var(--neutral-200);
+  background: var(--color-neutral-0);
+  border: 1px solid var(--color-neutral-200);
 }
 
 .filled {
-  background: var(--neutral-50);
+  background: var(--color-neutral-50);
 }
 
 .header {
   padding: var(--space-4);
-  border-bottom: 1px solid var(--neutral-200);
+  border-bottom: 1px solid var(--color-neutral-200);
   font-weight: var(--font-weight-semibold);
 }
 
@@ -30,7 +30,7 @@
 
 .footer {
   padding: var(--space-4);
-  border-top: 1px solid var(--neutral-200);
+  border-top: 1px solid var(--color-neutral-200);
 }
 
 .paddingNone .body {
