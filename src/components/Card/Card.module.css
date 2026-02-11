@@ -1,0 +1,50 @@
+.card {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.elevated {
+  background: white;
+  box-shadow: var(--shadow-md);
+}
+
+.outlined {
+  background: white;
+  border: 1px solid var(--neutral-200);
+}
+
+.filled {
+  background: var(--neutral-50);
+}
+
+.header {
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--neutral-200);
+  font-weight: var(--font-weight-semibold);
+}
+
+.body {
+  /* Padding is controlled by padding variants */
+}
+
+.footer {
+  padding: var(--space-4);
+  border-top: 1px solid var(--neutral-200);
+}
+
+.paddingNone .body {
+  padding: 0;
+}
+
+.paddingSm .body {
+  padding: var(--space-3);
+}
+
+.paddingMd .body {
+  padding: var(--space-4);
+}
+
+.paddingLg .body {
+  padding: var(--space-6);
+}
